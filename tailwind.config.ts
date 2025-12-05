@@ -60,7 +60,7 @@ const config = {
           2: "#344054",
         },
         gray: {
-          25: "#FCFCFD",
+          50: "#FCFCFD",
           200: "#EAECF0",
           300: "#D0D5DD",
           500: "#667085",
