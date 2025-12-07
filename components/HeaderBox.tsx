@@ -1,5 +1,3 @@
-//import React from "react";
-//import { title, user, subtext } from "HeaderBoxProps";
 const HeaderBox = ({
   type = "title",
   title,
@@ -14,6 +12,7 @@ const HeaderBox = ({
           <span className="text-bankGradient">&nbsp;{user}</span>
         )}
       </h1>
+      <p className="header-box-subtext">{subtext}</p>
     </div>
   );
 };
